@@ -9,20 +9,9 @@
 # K//N gives the number of apples got by each student  
 
 
-# N= input("Enter the number of students")
-# K= input("Enter the number of apples")
-# eachStudentGets= K//N
-# inBasket= K%N
-# print(f"each student got {eachStudentGets}")
-# print(f"the remaining apples in the basket are {inBasket}")
-
-number_of_students = int(input("Enter Number of Students : "))
-number_of_apples = int(input("Enter Number of Apples : "))
-each_student_gets = number_of_apples // number_of_students
-
-
-baskets = number_of_apples - (each_student_gets*number_of_students)
-if number_of_apples < number_of_students:
-    print("Sablai Pugne Gari Ta lyauna parchha ni ")
-else:
-    print(f"Each Students Gets {each_student_gets} Apples and {baskets} Remains in Basket ")
+N= int(input("Enter the number of students"))
+K= int(input("Enter the number of apples"))
+eachStudentGets= K//N
+inBasket= K%N
+print(f"each student got {eachStudentGets}")
+print(f"the remaining apples in the basket are {inBasket}")
